@@ -5,11 +5,12 @@ int main() {
   unsigned int estoque ,  estoqueMinimo = 1000;
 
   // Variaveis 
-  prinf("Entre com a temperatura \n");
+
+  printf("Entre com a temperatura\n");
   scanf("%f", &temperatura);
-  printf("Entre com a umidade \n");
+  printf("Entre com a umidade\n");
   scanf("%f", &umidade);
-  prinf("Entre com o estoque\n");
+  printf("Entre com o estoque\n");
   scanf("%u", &temperatura);
 
   //Dados
@@ -25,9 +26,9 @@ int main() {
     printf("Umidade está dentro dos parametros\n");
   }
     if (estoque < estoqueMinimo) {
-        printf("Estoque abaixo do mínimo!\n");
+    printf("Estoque abaixo do mínimo!\n");
     } else {
-        printf("Estoque normal!\n");
+    printf("Estoque normal!\n");
     }
     
 
