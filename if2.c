@@ -5,7 +5,7 @@ int main() {
   unsigned int estoque ,  estoqueMinimo = 1000;
 
   // Variaveis 
-  prinf("Entre com a temperatura\n");
+  prinf("Entre com a temperatura \n");
   scanf("%f", &temperatura);
   printf("Entre com a umidade \n");
   scanf("%f", &umidade);
