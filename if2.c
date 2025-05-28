@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  int numero = 4;
+  int estoque = 3;
 
-  if (numero % 2 == 0) {
-    printf("O número é par\n");
+  if (estoque < 5) {
+    printf("Estoque baixo\n");
   }
 
   return 0;
